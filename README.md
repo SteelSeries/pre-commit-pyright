@@ -5,7 +5,7 @@ Wrapper to enable pre-commit hook usage for pyright
 In your `.pre-commit-config.yaml` include the following block.
 
 ```
--   repo: https://github.com/necaris/pre-commit-pyright
+-   repo: https://github.com/SteelSeries/pre-commit-pyright
     rev: '1.1.254'
     hooks:
     -   id: pyright
