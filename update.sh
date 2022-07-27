@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 if [[ "$#" -lt 1 ]]; then
     echo "Usage: update.sh <version>"
     exit 1;
@@ -16,7 +18,7 @@ for file in ${files[@]}; do
 done
 
 git commit -m "Update to pyright ${new_version}"
-git tag --no-sign "${new_version}"
+git tag "${new_version}"
 
 git push
 git push --tags
