@@ -6,7 +6,7 @@ In your `.pre-commit-config.yaml` include the following block.
 
 ```
 -   repo: https://github.com/SteelSeries/pre-commit-pyright
-    rev: '1.1.278'
+    rev: '1.1.294'
     hooks:
     -   id: pyright
 ```
