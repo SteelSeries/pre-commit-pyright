@@ -1,7 +1,7 @@
 # pre-commit for pyright
 Wrapper to enable pre-commit hook usage for pyright
 
-## Usage:
+## Usage
 In your `.pre-commit-config.yaml` include the following block.
 
 ```
@@ -12,3 +12,6 @@ In your `.pre-commit-config.yaml` include the following block.
 ```
 
 If you have a `pyrightconfiguration.json` defined, this hook will honor it.
+
+## Updating
+If you need to update to new version of pyright, run `./update.sh <version>`.
